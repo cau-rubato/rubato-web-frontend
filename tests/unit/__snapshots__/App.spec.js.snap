@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App exists 1`] = `" App"`;
+
+exports[`App renders props.msg when passed 1`] = `" App"`;
