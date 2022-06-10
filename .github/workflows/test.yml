@@ -17,7 +17,9 @@ jobs:
         run: npm run build
 
       - name: Unit Test
-        run: npm run test:unit -u
+        run: chmod +x /node_modules/.bin/vue-cli-service
+        run: ./node_modules/.bin/vue-cli-service test:unit -u
+
 
       - name: Lint
         run: npm run lint
