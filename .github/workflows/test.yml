@@ -19,7 +19,7 @@ jobs:
 
       - name: Unit Test
         run: |
-          chmod +x /node_modules/.bin/vue-cli-service
+          chmod +x ./node_modules/.bin/vue-cli-service
           ./node_modules/.bin/vue-cli-service test:unit -u
 
       - name: Lint
