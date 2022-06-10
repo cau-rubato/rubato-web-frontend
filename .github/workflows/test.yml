@@ -2,7 +2,8 @@ name: unit testing
 
 on:
   pull_request:
-    branches: ['master', 'develop']
+    branches:
+      - '*'
 
 jobs:
   unit_test_lint:
@@ -19,7 +20,6 @@ jobs:
       - name: Unit Test
         run: chmod +x /node_modules/.bin/vue-cli-service
         run: ./node_modules/.bin/vue-cli-service test:unit -u
-
 
       - name: Lint
         run: npm run lint
