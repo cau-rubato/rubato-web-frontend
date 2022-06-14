@@ -1,6 +1,6 @@
 <template>
   <div class="footer bg-dark">
-    <div class="container py-5">
+    <div class="container p-5">
       <div class="row">
         <div class="col-9">
           <p class="lead copyright">
@@ -25,7 +25,6 @@
 <script>
 export default {
   name: "FooterLayout",
-
   data() {
     return {
       copyright: "@RUBATO",

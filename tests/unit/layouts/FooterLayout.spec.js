@@ -2,7 +2,7 @@ import { shallowMount } from '@vue/test-utils'
 import FooterLayout from '@/layouts/FooterLayout.vue'
 
 
-describe('App', () => {
+describe('FooterLayout', () => {
 
     it('Copyright Text 정상 출력', () => {
         const wrapper = shallowMount(FooterLayout);

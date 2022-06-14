@@ -10,12 +10,12 @@ const routes = [
     component: MainView
   },
   {
-    path: '/concerts',
+    path: '/concert',
     name: 'ConcertView',
     component: ConcertView
   },
   {
-    path: '/members',
+    path: '/member',
     name: 'MemberView',
     component: MemberView
   },
