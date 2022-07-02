@@ -1,14 +1,14 @@
 <template>
-  <div class="managers container py-6 pt-6 px-custom">
-    <h2 class="text-custom"><strong>회장단</strong></h2>
-    <h2 class="display-4 concert-title mt-5">루바토 회장단을<br/>소개합니다</h2>
-    <div class="row mt-6">
-      <div v-for="(manager, i) in managers" :key="i" class="col-4 text-center">
-        <img class="avatar-custom" :src="manager.imgRoute" />
-        <h4 class="mt-4"><strong>{{ manager.type }}</strong></h4>
-        <h5 class="display-9">{{ manager.instrument }}. {{ manager.generation }}기 {{ manager.name }}</h5>
-        <h5 class="display-9">{{ manager.department }} {{ manager.studentID }}</h5>
-      </div>
+  <div class="managers container page px-5">
+    <h2 class="page-title main-color">회장단</h2>
+    <h2 class="display-4 page-head mt-5">루바토 회장단을<br/>소개합니다</h2>
+    <div class="row">
+<!--      <div v-for="(manager, i) in managers" :key="i" class="col-4 text-center">-->
+<!--        <img class="avatar-custom" :src="manager.imgRoute" />-->
+<!--        <h4 class="mt-4"><strong>{{ manager.type }}</strong></h4>-->
+<!--        <h5 class="display-9">{{ manager.instrument }}. {{ manager.generation }}기 {{ manager.name }}</h5>-->
+<!--        <h5 class="display-9">{{ manager.department }} {{ manager.studentID }}</h5>-->
+<!--      </div>-->
 
     </div>
   </div>
@@ -54,5 +54,11 @@ export default {
 </script>
 
 <style scoped>
+.avatar-custom {
+  border-radius: 70%;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+}
 
 </style>

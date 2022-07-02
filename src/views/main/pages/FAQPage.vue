@@ -1,8 +1,8 @@
 <template>
   <div class="faq bg-light">
-    <div class="container py-6 pt-6 px-custom">
-      <h2 class="text-custom"><strong>FAQ</strong></h2>
-      <h2 class="display-4 concert-title mt-4">자주 묻는 질문</h2>
+    <div class="container page px-5">
+      <h2 class="page-title main-color">FAQ</h2>
+      <h2 class="display-4 page-head mt-4">자주 묻는 질문</h2>
       <p class="lead">자주 문의되는 질문에 대한 내용을 정리하였습니다.</p>
       <div style="padding-top: 60px">
         <div v-if="faqState==='list'">
@@ -30,7 +30,6 @@ export default {
   name: "FaqPage",
   data() {
     return {
-
       faqs: [
         {
           title: "어떻게 가입해여??",
@@ -71,5 +70,32 @@ export default {
 </script>
 
 <style scoped>
+.return-list:hover {
+  cursor: pointer;
+  color: #277DA1;
+}
 
+.quest {
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.qicon {
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.faq-card {
+  width: 100%;
+  padding-bottom: 12px;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 8px;
+}
+
+.faq-card:hover {
+  cursor: pointer;
+  background-color: #E8E9Ea;
+}
 </style>

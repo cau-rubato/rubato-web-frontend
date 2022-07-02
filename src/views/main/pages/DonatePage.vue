@@ -1,8 +1,8 @@
 <template>
   <div class="patron bg-light">
-    <div class="container py-6 pt-6 px-custom">
-      <h2 class="text-custom"><strong>후원</strong></h2>
-      <h2 class="display-4 concert-title mt-5">
+    <div class="container page px-5">
+      <h2 class="page-title main-color">후원 </h2>
+      <h2 class="display-4 page-head mt-5">
         도움의 손길이 필요합니다.
       </h2>
       <p class="lead">
