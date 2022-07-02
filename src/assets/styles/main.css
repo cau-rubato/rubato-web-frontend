@@ -1,0 +1,31 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+}
+
+.page {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.main-color {
+    color: #277DA1;
+}
+
+.page-title {
+    font-weight: bold;
+}
+
+.page-head {
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+
+@media (min-width: 576px) {
+    .page {
+        padding-top: 11rem;
+        padding-bottom: 11rem;
+    }
+}
