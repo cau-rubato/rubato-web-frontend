@@ -1,0 +1,42 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+}
+
+.page {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.main-color {
+    color: #277DA1;
+}
+
+.page-title {
+    font-weight: bold;
+}
+
+.page-head {
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.word-keep-all {
+    word-break: keep-all;
+}
+
+
+@media (min-width: 576px) {
+    .page {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
+
+@font-face {
+    font-family: "Kepolu";
+    src: url("../fonts/kepolu/Kepolu.ttf") format("truetype");
+    font-weight: normal;
+}
+
