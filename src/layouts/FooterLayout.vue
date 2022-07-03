@@ -2,21 +2,21 @@
   <div class="footer bg-dark">
     <div class="container p-5">
       <div class="row">
-        <div class="col-9">
+        <div class="col">
           <p class="lead copyright">
-            {{ copyright }}
+            {{ copyright }},
           </p>
-          <p class="lead text-light" style="display: inline">
-            , ALL RIGHTS RESERVED
+          <p class="text-light lead" style="display: inline-block;">
+            ALL RIGHTS RESERVED
           </p>
-          <p class="text-light address">{{ address }}</p>
-          <p class="text-light email">Email : {{ email }}</p>
         </div>
-        <div class="col-3" style="text-align: right">
+        <div class="col" style="text-align: right">
           <h2 class="sns" v-for="(sns, i) in sns_list" :key="i">
             <a :href="sns.href"><i :class="sns.icon"></i></a>
           </h2>
         </div>
+        <p class="text-light address word-keep-all">{{ address }}</p>
+        <p class="text-light email word-keep-all">Email : {{ email }}</p>
       </div>
     </div>
   </div>
@@ -61,6 +61,6 @@ export default {
 
 .sns {
   display: inline;
-  margin-left: 20px;
+  margin-left: 0.5rem;
 }
 </style>

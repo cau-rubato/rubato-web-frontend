@@ -15,9 +15,14 @@ describe('HeaderLayout', () => {
     it('로그인 버튼 정상 출력', () => {
         const wrapper = shallowMount(HeaderLayout);
 
-        const button = wrapper.find('.portal');
-        expect(button.exists()).toBeTruthy();
-        expect(button.text()).toBe("로그인");
+        const portalButton = wrapper.find('.portal');
+        const donateButton = wrapper.find('.donate');
+
+        expect(portalButton.exists()).toBeTruthy();
+        expect(portalButton.text()).toBe("로그인");
+
+        expect(donateButton.exists()).toBeTruthy();
+        expect(donateButton.text()).toBe("후원하기");
     });
 
     it('메뉴 정상 출력', () => {

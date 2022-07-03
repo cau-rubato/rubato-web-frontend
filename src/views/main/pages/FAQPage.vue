@@ -3,7 +3,7 @@
     <div class="container page px-5">
       <h2 class="page-title main-color">FAQ</h2>
       <h2 class="display-4 page-head mt-4">자주 묻는 질문</h2>
-      <p class="lead">자주 문의되는 질문에 대한 내용을 정리하였습니다.</p>
+      <h5 class="text-muted mt-3">자주 문의되는 질문에 대한 내용을 정리하였습니다.</h5>
 
       <div class="mt-5">
         <div v-if="toggle">

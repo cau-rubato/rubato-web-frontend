@@ -10,9 +10,9 @@
         </div>
         <div class="col">
               <img class="poster concert-bottom-margin" src="@/assets/images/profile.png" />
-              <h2 class="mt-5">
-                Lorem ipsum dolor sit amet, consectetur,<br/>Lorem ipsum dolor sit amet, consectetur
-              </h2>
+              <h4 class="word-keep-all mt-5 concert-tail">
+                <i>작은 소리들이 모여<br/>하나의 큰 선율이 되는 곳,<br/>참아왔던 그 동안의 이야기,<br/><i class="main-color" style="text-shadow: 5px 5px 10px lightgray;">Ancora Rubato!</i></i>
+              </h4>
         </div>
       </div>
     </div>
@@ -26,6 +26,11 @@ export default {
 </script>
 
 <style scoped>
+.concert-tail {
+  text-align: center;
+  line-height: 150%;
+}
+
 .poster {
   width: 100%;
   filter: drop-shadow(-25px 25px 30px #555);

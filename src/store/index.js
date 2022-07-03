@@ -11,16 +11,16 @@ export default createStore({
                     generation: 37,
                     department: "전자전기공학부",
                     studentID: 17,
-                    imgRoute: require("@/assets/images/main.jpeg")
+                    imgRoute: require("@/assets/images/president.png")
                 },
                 {
-                    name: "박민정",
+                    name: "전보미",
                     type: "부회장",
                     instrument: "Vn",
-                    generation: 37,
-                    department: "중어중문학과",
+                    generation: 38,
+                    department: "간호학과",
                     studentID: 20,
-                    imgRoute: require("@/assets/images/main.jpeg")
+                    imgRoute: require("@/assets/images/vice_president.jpg")
                 },
                 {
                     name: "손차희",
@@ -29,7 +29,7 @@ export default createStore({
                     generation: 37,
                     department: "경영학과",
                     studentID: 21,
-                    imgRoute: require("@/assets/images/main.jpeg")
+                    imgRoute: require("@/assets/images/secretary.png")
                 },
             ],
             faqs: [
