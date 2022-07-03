@@ -10,7 +10,7 @@ describe('App', () => {
         expect(wrapper.exists()).toBeTruthy()
     });
 
-    it('Layout Assembly Test', () => {
+    it('레이아웃 구성 테스트', () => {
         const wrapper = shallowMount(App);
 
         expect(wrapper.findComponent(HeaderLayout).exists()).toBeTruthy();
