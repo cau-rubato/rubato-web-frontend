@@ -22,6 +22,10 @@
     font-weight: 700;
 }
 
+.word-keep-all {
+    word-break: keep-all;
+}
+
 
 @media (min-width: 576px) {
     .page {
