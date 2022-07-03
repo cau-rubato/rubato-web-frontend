@@ -8,7 +8,7 @@ import MapPage from "@/views/main/pages/MapPage";
 import FAQPage from "@/views/main/pages/FAQPage";
 
 describe('MainView', () => {
-    it('', () => {
+    it('MainView에 Component들이 올바르게 구성되었는가', () => {
         const wrapper = shallowMount(MainView);
 
         const top = wrapper.findComponent(TopPage);
