@@ -9,7 +9,7 @@ describe('FooterLayout', () => {
 
         const copyright = wrapper.find('.copyright')
         expect(copyright.exists()).toBeTruthy()
-        expect(copyright.text()).toBe("@RUBATO");
+        expect(copyright.text()).toBe("@RUBATO,");
     });
 
     it('Address 정상 출력', () => {

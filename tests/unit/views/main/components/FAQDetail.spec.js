@@ -40,8 +40,8 @@ describe('FAQDetail', () => {
     });
 
     it('데이터에 따라 화면에 잘 표시되는지 테스트', () => {
-        let question = wrapper.find("h1").text();
-        let answer = wrapper.find("p").text();
+        let question = wrapper.find("h2").text();
+        let answer = wrapper.find("h5").text();
 
         expect(question).toBe("C");
         expect(answer).toBe("D");

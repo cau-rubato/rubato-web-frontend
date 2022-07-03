@@ -25,7 +25,7 @@
           />
         </ul>
 
-        <button class="btn btn-success disabled portal me-2" type="submit">
+        <button class="btn btn-success disabled donate me-2" type="submit">
           후원하기
         </button>
 
