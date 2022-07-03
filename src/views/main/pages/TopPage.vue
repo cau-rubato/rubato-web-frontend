@@ -3,16 +3,17 @@
     <div class="black-screen">
       <div class="container page px-5">
         <h1 class="display-3 text-light text-center">
-          CHUNG-ANG UNIVERSITY <br/>AMATEUR ORCHESTRA <strong class="main-color">RUBATO</strong>
+          CHUNG-ANG UNIVERSITY <br/>AMATEUR ORCHESTRA <strong class="main-color" style="text-shadow: 5px 5px 10px black;">RUBATO</strong>
         </h1>
         <p class="text-light mt-5 text-center lead">
-          매 학기 방학마다 진행하는 정기연주회를 중심으로,<br/> 다양한 활동들을 꾸준히 이어나가고 있습니다.
+          박자에 얽매이지 않고 자유롭게 하는 연주법이란 뜻을 가진 루바토에는,<br>음악을 사랑하는 중앙대학교 학우들이 모두 모여 자유롭게 오케스트라 활동을 이어나가고 있습니다.
         </p>
-        <p class="text-light text-center">지금, <strong class="main-color">RUBATO</strong>에 합류하세요.</p>
 
-        <div class="text-center mt-4">
-          <button v-if="apply_state.available" type="button" class="btn btn-outline-light btn-lg mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">지원하기 <i class="bi bi-chevron-right"></i></button>
-          <button v-else type="button" class="btn btn-outline-light btn-lg mt-5 disabled" data-bs-toggle="modal" data-bs-target="#exampleModal">지원하기 <i class="bi bi-chevron-right"></i></button>
+        <p class="text-light text-center mt-5">지금, <strong class="main-color">RUBATO</strong>에 합류하세요.</p>
+
+        <div class="text-center">
+          <button v-if="apply_state.available" type="button" class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">지원하기 <i class="bi bi-chevron-right"></i></button>
+          <button v-else type="button" class="btn btn-outline-light btn-lg disabled" data-bs-toggle="modal" data-bs-target="#exampleModal">지원하기 <i class="bi bi-chevron-right"></i></button>
         </div>
 
         <div class="caption">

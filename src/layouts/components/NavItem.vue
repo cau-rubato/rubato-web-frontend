@@ -7,7 +7,7 @@
               @click="navigate(menu.route)"
               >{{ menu.name }}</a
             >
-            <a v-else class="nav-link" href="#" @click="navigate(menu.route)">{{
+            <a v-else class="nav-link disabled" href="#" @click="navigate(menu.route)">{{
               menu.name
             }}</a>
     </li>

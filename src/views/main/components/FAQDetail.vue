@@ -4,8 +4,8 @@
       <i class="bi bi-chevron-left"
          style="margin-right: 10px;"></i>질문 목록으로 돌아가기</h6>
 
-    <h1 class="word-keep-all">{{ $store.state.faqs[faqId].question }}</h1>
-    <p class="mt-5 lead">{{ $store.state.faqs[faqId].answer }}</p>
+    <h2 class="word-keep-all">{{ $store.state.faqs[faqId].question }}</h2>
+    <h5 class="mt-5 text-muted word-keep-all answer">{{ $store.state.faqs[faqId].answer }}</h5>
   </div>
 </template>
 
@@ -19,6 +19,10 @@ export default {
 </script>
 
 <style scoped>
+.answer {
+  line-height: 160%;
+}
+
 .return-list:hover {
   cursor: pointer;
   color: #277DA1;

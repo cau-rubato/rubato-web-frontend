@@ -25,7 +25,11 @@
           />
         </ul>
 
-        <button class="btn btn-outline-light portal" type="submit">
+        <button class="btn btn-success disabled portal me-2" type="submit">
+          후원하기
+        </button>
+
+        <button class="btn btn-outline-light portal disabled" type="submit">
           로그인
         </button>
       </div>
