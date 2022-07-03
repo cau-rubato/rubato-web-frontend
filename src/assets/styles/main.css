@@ -29,3 +29,10 @@
         padding-bottom: 11rem;
     }
 }
+
+@font-face {
+    font-family: "Kepolu";
+    src: url("../fonts/kepolu/Kepolu.ttf") format("truetype");
+    font-weight: normal;
+}
+
