@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils'
-import NavItem from '@/components/NavItem.vue'
+import NavItem from '@/layouts/components/NavItem.vue'
 
 describe('NavItem', () => {
 
